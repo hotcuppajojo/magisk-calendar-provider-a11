@@ -1,3 +1,4 @@
 system/priv-app/CalendarProvider/*.apk
 *.zip
 .DS_Store
+.swp

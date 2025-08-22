@@ -1,0 +1,10 @@
+<permissions>
+  <privapp-permissions package="com.android.providers.calendar">
+    <permission name="android.permission.READ_CALENDAR"/>
+    <permission name="android.permission.WRITE_CALENDAR"/>
+    <permission name="android.permission.READ_SYNC_SETTINGS"/>
+    <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <permission name="android.permission.READ_SYNC_STATS"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+  </privapp-permissions>
+</permissions>

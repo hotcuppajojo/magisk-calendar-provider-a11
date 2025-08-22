@@ -1,0 +1,6 @@
+id=aosp-calendarprovider
+name=Calendar Storage (Provider) for Android 11
+version=11
+versionCode=30
+author=JoJo Petersky
+description=Installs Calendar Storage (com.android.providers.calendar) as a privileged app on Android 11. Fixes "Calendar storage disabled" and enables calendar provider at content://com.android.calendar.
