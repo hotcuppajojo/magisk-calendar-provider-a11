@@ -55,9 +55,12 @@ if [ ! -f "$PERM_XML" ]; then
 fi
 
 # 4) Build the zip (exclude repo cruft)
+find system -name '.DS_Store' -delete || true
 echo "==> Creating $OUT"
 zip -r9 "$OUT" \
   module.prop customize.sh system \
-  -x ".git/*" -x ".github/*" -x "scripts/*" -x "*.zip" -x ".DS_Store" -x "README.md" -x "LICENSE" >/dev/null
+  -x ".git/*" -x ".github/*" -x "scripts/*" -x "*.zip" \
+  -x ".DS_Store" -x "*/.DS_Store" -x "__MACOSX/*" \
+  -x "README.md" -x "LICENSE" >/dev/null
 
 echo "==> Done: $OUT"

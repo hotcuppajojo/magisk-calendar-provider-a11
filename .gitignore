@@ -1,4 +1,7 @@
-system/priv-app/CalendarProvider/*.apk
+# .gitignore
+.swp
 *.zip
 .DS_Store
-.swp
+**/.DS_Store
+__MACOSX/
+system/priv-app/CalendarProvider/*.apk
